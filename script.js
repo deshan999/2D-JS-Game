@@ -49,7 +49,7 @@ function run(){
 
 var jumpworkerNumber = 0;
 var jumpImageNumber = 1;
-var jumpMarginTop = 493; 
+var jumpMarginTop = 313; 
 var jumpSound = new Audio("jump.mp3");
 
 function jump(){
@@ -123,7 +123,7 @@ function dead(){
     },100);
 }
 
-var flameMarginLeft = [500, 1000, 2000];
+var flameMarginLeft = [800, 1400, 2000];
 var flameWorkerNumber = 0;
 
 function generateFlame(x){
